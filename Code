@@ -1,0 +1,29 @@
+DELETE THIS LINE & INSTRUCTIONS BELOW BEFORE SAVING:
+Instructions: Save this as 'DD.snippet' in "YOURPATH\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets
+TO USE: type 'DD' and then the 'tab' button twice to automatically insert a 'Debug.Log("")' into your code.
+DELETE THIS LINE & INSTRUCTIONS ABOVE BEFORE SAVING:
+
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>dd</Title>
+            <Shortcut>dd</Shortcut>
+            <Description>Code snippet for Debug.Log</Description>
+            <Author>Chris Bird</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal Editable="false">
+                    <ID>UnityEngine</ID>
+                    <Function>SimpleTypeName(global::System.Console)</Function>
+                </Literal>
+            </Declarations>
+            <Code Language="csharp"><![CDATA[Debug.Log("");$end$]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
